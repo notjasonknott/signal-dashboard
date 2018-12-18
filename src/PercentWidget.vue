@@ -93,7 +93,7 @@ export default {
     },
     loadData() {
       this.isLoading = true;
-      let url = "https://prod.musicforworld.com/v1/dashboard/fill_rate/";
+      let url = "https://prod.musicforworld.com/v1/dash_xsa/fill_rate/";
       this.$http
         .get(url)
         .then(

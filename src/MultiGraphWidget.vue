@@ -256,7 +256,7 @@ export default {
     loadData(days) {
       this.isLoading = true;
       let data = { days: days };
-      let url = "https://prod.musicforworld.com/v1/dashboard/conversion_rates/";
+      let url = "https://prod.musicforworld.com/v1/dash_xsa/conversion_rates/";
       this.$http
         .post(url, data)
         .then(

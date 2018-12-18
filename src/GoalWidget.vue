@@ -68,7 +68,7 @@ export default {
   methods: {
     loadData() {
       this.isLoading = true;
-      let url = "https://prod.musicforworld.com/v1/dashboard/goal/";
+      let url = "https://prod.musicforworld.com/v1/dash_xsa/goal/";
       this.$http
         .get(url)
         .then(

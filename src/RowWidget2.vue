@@ -82,7 +82,7 @@ export default {
   methods: {
     loadData() {
       this.isLoading = true;
-      let url = "https://prod.musicforworld.com/v1/dashboard/funnel_stats/";
+      let url = "https://prod.musicforworld.com/v1/dash_xsa/funnel_stats/";
       this.$http
         .get(url)
         .then(

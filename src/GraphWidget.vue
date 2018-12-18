@@ -91,7 +91,7 @@ export default {
       this.isLoading = true;
       let data = { days: days };
       let url =
-        "https://prod.musicforworld.com/v1/dashboard/subscriptions_per_day/";
+        "https://prod.musicforworld.com/v1/dash_xsa/subscriptions_per_day/";
       this.$http
         .post(url, data)
         .then(
